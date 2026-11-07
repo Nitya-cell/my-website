@@ -1,23 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
 }
 
 header {
-    background-color: navy;
+    background: #003366;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-nav {
-    text-align: center;
-    background-color: #ddd;
-    padding: 10px;
-}
-
 nav a {
+    color: white;
     margin: 10px;
     text-decoration: none;
 }
@@ -26,5 +21,30 @@ section {
     background: white;
     margin: 20px;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+button {
+    background: #003366;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0055aa;
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
